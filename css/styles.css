@@ -1,0 +1,138 @@
+/*
+Background - a0c1b8 //f7f7e8
+Text - 726a95 // 557174
+Title - 4d375d //9dad7f
+Links - //9dad7f
+Hover - 726a95 //557174
+Content BR -  // c7cfb7
+
+
+
+!!!! https://colorhunt.co/palette/189676 !!!!
+https://colorhunt.co/palette/252885
+*/
+body {
+  background-color: #ecf4f3;/*#f7f7e8;*/
+  color: #043445;/* #557174;*/
+  font-family: 'Crimson Text', serif;
+}
+h1 {
+  color: #4d375d;
+  font-family: 'Parisienne', cursive;
+}
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+}
+h4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+a {
+  text-decoration: none;
+  color: #709fb0;
+}
+a:hover {
+  text-decoration: none;
+  color: #726a95;
+  font-size: 1.2em;
+}
+
+.title {
+  position: fixed;
+  z-index: 1;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.rotate {
+  position: relative;
+  z-index: 3;
+  top: 89px;
+  /*background-color: #214151;
+  height: 100px;
+  width: 120px;*/
+  text-align: right;
+  transform: rotate(-90deg);
+
+}
+.menu-img {
+  position: relative;
+  z-index: 2;
+  /*left: 25px;*/
+  height: 120px;
+  width: auto;
+}
+.content {
+  padding-right: 150px;
+  padding-left: 300px;
+  position: absolute;
+  top: 50px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.content-block {
+  padding: 15px 30px 15px;
+  margin: 20px;
+  background-color: #f4ebc1;
+  border-radius: 35px;
+  display: inline-block;
+  width: 70%;
+}
+.poll-title {
+  font-size: 1.1em;
+}
+
+.book-title {
+  /*position: absolute;
+  right: 0;*/
+  text-align: center;
+  line-height: 2em;
+  width: auto;
+  float: right;
+  padding-left: 20px;
+  padding-bottom:20px;
+  /*
+  display: inline-block;
+  background-color: green;*/
+}
+
+.book-content {
+  /*margin-top: 10%;
+  display: inline-block;
+  width: 50%;*/
+  background-color: red;
+}
+.pad-top {
+  margin-top: 20px;
+}
+.book-img {
+  height: 400px;
+  width: auto;
+  display: block;
+}
+.book-name {
+  display: block;
+}
+/*.home-page {
+  position: absolute;
+  left: 40px;
+}
+.current-page {
+  position: absolute;
+  left: 70px;
+}
+.past-page {
+  position: absolute;
+  left: 100px;
+}
+.events-page {
+  position: absolute;
+  left: 130px;
+}
+.contact-page {
+  position: absolute;
+  left: 160px;
+}*/
