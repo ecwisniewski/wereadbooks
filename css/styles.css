@@ -38,7 +38,10 @@ a:hover {
   color: #726a95;
   font-size: 1.2em;
 }
-
+.invisible {
+  /*visibility: hidden;*/
+  display: none;
+}
 .title {
   position: fixed;
   z-index: 1;

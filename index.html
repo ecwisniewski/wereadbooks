@@ -26,44 +26,61 @@
   </div>
   <!-- Content -->
   <div class="content">
-      <div class="welcome content-block">
-        <h2>Welcome</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Sapien faucibus et molestie ac feugiat. Cras sed felis eget velit aliquet sagittis id consectetur. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Dui nunc mattis enim ut tellus elementum sagittis vitae. Augue neque gravida in fermentum. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Lacus sed viverra tellus in hac habitasse platea dictumst. Rutrum quisque non tellus orci ac. At augue eget arcu dictum. Blandit libero volutpat sed cras ornare arcu dui vivamus.
+    <div class="welcome content-block">
+      <h2>Welcome</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Sapien faucibus et molestie ac feugiat. Cras sed felis
+        eget velit aliquet sagittis id consectetur. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Dui nunc mattis enim ut tellus elementum sagittis vitae. Augue neque gravida in fermentum. Et netus et malesuada fames ac
+        turpis egestas maecenas pharetra. Lacus sed viverra tellus in hac habitasse platea dictumst. Rutrum quisque non tellus orci ac. At augue eget arcu dictum. Blandit libero volutpat sed cras ornare arcu dui vivamus.
         <br><br>
-        Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Lacus laoreet non curabitur gravida. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Sagittis id consectetur purus ut. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Sapien eget mi proin sed libero. Facilisi cras fermentum odio eu. Sodales ut etiam sit amet. In eu mi bibendum neque egestas congue quisque. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. In nulla posuere sollicitudin aliquam. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor.</p>
-      </div>
-      <div class="polls content-block">
-        <h2>Polls</h2>
-        <br>
-        <form class="" action="index.html" method="post">
-          <label class="poll-title" for="">What is your favorite genre?</label>
+        Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Lacus laoreet non curabitur gravida. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Sagittis
+        id consectetur purus ut. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Sapien eget mi proin sed libero. Facilisi cras fermentum odio eu. Sodales ut etiam sit amet. In eu mi bibendum neque egestas congue quisque.
+        Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. In nulla posuere sollicitudin aliquam. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor.
+      </p>
+    </div>
+    <div class="polls content-block">
+      <h2>Polls</h2>
+      <br>
+      <form name="pollform" action="javascript:void(0);">
+        <label class="poll-title" for="">What is your favorite genre?</label>
 
-          <br>
-          <label for="">Horror</label>
-          <input type="radio" name="" value="Horror">
-          <br>
-          <label for="">Mystery</label>
-          <input type="radio" name="" value="Mystery">
-          <br>
-          <label for="">Science Fiction</label>
-          <input type="radio" name="" value="Science Fiction">
-          <br>
-          <label for="">Contemporary Fiction</label>
-          <input type="radio" name="" value="Contemporary Fiction">
-          <br>
-          <label for="">Thrillers</label>
-          <input type="radio" name="" value="Thrillers">
-          <br>
-          <label for="">Nonfiction</label>
-          <input type="radio" name="" value="Nonfiction">
-          <br>
-          <input type="submit" name="" value="Send">
-        </form>
         <br>
-
+        <label for="">Horror</label>
+        <input type="radio" name="myradio" value="Horror">
+        <br>
+        <label for="">Mystery</label>
+        <input type="radio" name="myradio" value="Mystery">
+        <br>
+        <label for="">Science Fiction</label>
+        <input type="radio" name="myradio" value="Science Fiction">
+        <br>
+        <label for="">Contemporary Fiction</label>
+        <input type="radio" name="myradio" value="Contemporary Fiction">
+        <br>
+        <label for="">Thrillers</label>
+        <input type="radio" name="myradio" value="Thrillers">
+        <br>
+        <label for="">Nonfiction</label>
+        <input type="radio" name="myradio" value="Nonfiction">
+        <br>
+        <input type="submit" name="send" value="Send">
+      </form>
+      <div class="invisible poll-results">
+        <h2>Poll Info</h2>
+        <!--<ul>
+          <li>Horror: 0</li>
+          <li>Mystery: 0</li>
+          <li>Science Fiction: 0</li>
+          <li>Contemporary Fiction: 0</li>
+          <li>Thrillers: 0</li>
+          <li>Nonfiction: 0</li>
+        </ul>-->
+        <p>You selected nothing.</p>
       </div>
+      <br>
+
+    </div>
   </div>
-
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
