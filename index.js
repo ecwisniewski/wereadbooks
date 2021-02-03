@@ -15,8 +15,9 @@ pollForm.elements["send"].onclick = function() {
   //alert("clicked");
   for(var j = 0; j<radios.length; j++) {
     if(radios[j].checked) {
-       pollResults.querySelector("p").innerText = "You selected " + radios[j].value;
+       pollResults.querySelector("p").innerText = "You selected " + radios[j].value +"!";
        pollResults.classList.remove("invisible");
+       pollForm.classList.add("invisible");
     }
   }
 }
